@@ -1,0 +1,119 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1{
+margin: 30px;
+font-family: sans-serif;
+text-align: center;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 30px;
+  }
+  th, td {
+    background-color: #96D4D4;
+    opacity: 60%;
+  }
+
+  th, td:has(:hover) {
+    opacity: 100%;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+th{
+height: 300px;
+}
+
+  td{
+    height: 80px;
+    width: 80px;
+  
+}
+
+  .emptybox{
+opacity: 0;
+  }
+
+  .numero{
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .elemento{
+width: 80px;
+height: 80px;
+padding: 10px;
+  }
+
+  .simbolo{
+    display: flex;
+font-size: 36px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+align-items: center;
+justify-content: center;
+  }
+
+  .nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .peso{
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+
+/*cores*/
+.naometais{
+background-color:   #f19191;
+}
+
+.metaisalcalinos{
+    background-color:   #a99797;
+    }
+
+.metaisalcalinoterrosos{
+    background-color:   rgb(230, 134, 86);
+    }
+
+.gasesnobres{
+    background-color:   rgb(98, 165, 189);
+    }
+
+.halogeneos{
+    background-color:   rgb(181, 214, 114)
+    }
+.semimetais{
+    background-color:   rgb(229, 212, 64)
+    }
+
+.representativos{
+    background-color:   rgb(107, 107, 101)
+    }
+
+.lanctanideos{
+background-color:   rgb(171, 84, 128);
+}
+
+.actinideos{
+background-color:   rgb(58, 147, 118)
+}
+
+/*números na tabela 1 que saem para a tabela 2*/
+.newstyle{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+} 
